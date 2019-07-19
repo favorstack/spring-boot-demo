@@ -1,8 +1,34 @@
+#android
+/.gradle
+app/build
+/build
+
+rebel.xml
+*.war
+*.ear
+
+.class
+target
+.DS_Store
+.classpath
+.settings
+.project
+bin
+classes
+test-output/
+tmp/
+*.ipr
+*.iml
+*.iws
+.idea/
+.idea
+overlays/
+pom.xml.versionsBackup
+*.log
+**/.checkstyle
+
 # Compiled class file
 *.class
-
-# Log file
-*.log
 
 # BlueJ files
 *.ctxt
@@ -12,9 +38,7 @@
 
 # Package Files #
 *.jar
-*.war
 *.nar
-*.ear
 *.zip
 *.tar.gz
 *.rar
